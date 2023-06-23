@@ -33,7 +33,7 @@ input {
   border-radius: 8px;
   border: 1px solid var(--primary-stroke-or-disabled-gray, #eaecf0);
   background: var(--primary-white, #fff);
-  margin-bottom: 13px;
+  margin: 0 0 13px 24px;
 }
 
 .news {

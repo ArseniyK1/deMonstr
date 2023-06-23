@@ -7,7 +7,7 @@ const SideBar = () => {
       <div className={styles["sidebar-head"]}>
         <div className={styles["sidebar-head__logo"]}>
           <img src={logoHead} alt="logo" />
-          <p>Вариант 6</p>
+          <p>Вариант 4</p>
         </div>
         <input type="text" name="search" placeholder="Поиск" />
         <p className={styles.news}>Все новости</p>
