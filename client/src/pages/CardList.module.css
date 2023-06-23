@@ -1,6 +1,6 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  width: 125%;
+  max-width: 125%;
   margin-top: 45px;
 }

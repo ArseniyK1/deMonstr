@@ -3,7 +3,7 @@
 }
 
 .card {
-  margin: 0 auto;
+  margin-right: 32px;
   width: 16rem;
   height: 26rem;
   display: flex;
@@ -15,6 +15,11 @@
   /* border: 1px solid red; */
   cursor: pointer;
 }
+
+.card:nth-child(4) {
+  margin-right: 0;
+}
+
 .card-label {
   width: 100%;
   color: var(--primary-gray, #667085);
@@ -59,4 +64,6 @@
   font-size: 1.125rem;
   font-family: Inter;
   line-height: 1.75rem;
+  max-height: 127px;
+  overflow:hidden;
 }
